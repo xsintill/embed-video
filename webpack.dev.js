@@ -53,7 +53,7 @@ module.exports = {
         ],
       },
       {
-        test: /\.less$/,
+        test: /\.scss$/,
         use: [
           {
             loader: "style-loader", // creates style nodes from JS strings
@@ -62,7 +62,7 @@ module.exports = {
             loader: "css-loader", // translates CSS into CommonJS
           },
           {
-            loader: "less-loader", // compiles Less to CSS
+            loader: "sass-loader", // compiles Less to CSS
           },
         ],
       },
@@ -88,5 +88,6 @@ module.exports = {
     contentBase: path.join(__dirname, "dist"),
     compress: true,
     port: 9001,
+    open: true
   },
 };

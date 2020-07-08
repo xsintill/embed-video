@@ -1,0 +1,9 @@
+<button ng-click="$ctrl.pasteBrightcove()">paste brightcove</button>
+<button ng-click="$ctrl.pasteFrameio()">paste frameio</button>
+<button ng-click="$ctrl.pasteYoutube()">paste youtube</button>
+<button ng-click="$ctrl.pasteVimeoUnresponsive()">paste vimeo unresponsive</button>
+<button ng-click="$ctrl.pasteVimeoResponsive()">paste vimeo responsive</button>
+<textarea style="width:100%; height: 200px" ng-model="$ctrl.presentable.embedCode" placeholder="{{$ctrl.presentable.placeHolder}}"></textarea>
+<hr>
+<div class="llq-embed-video-container" ng-bind-html="$ctrl.presentable.trusted">
+</div>

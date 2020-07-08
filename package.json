@@ -25,6 +25,8 @@
     "less": "^3.11.3",
     "less-loader": "^4.1.0",
     "mini-css-extract-plugin": "^0.2.0",
+    "node-sass": "^4.14.1",
+    "sass-loader": "^9.0.2",
     "style-loader": "^0.20.3",
     "ts-loader": "^4.5.0",
     "tslint": "^5.20.1",
@@ -37,11 +39,13 @@
     "zone.js": "^0.8.29"
   },
   "dependencies": {
+    "@types/lodash": "4.14.157",
     "@uirouter/angularjs": "^1.0.26",
     "angular": "^1.8.0",
     "angular-sanitize": "^1.8.0",
     "angular-ui-bootstrap": "^2.5.6",
     "bootstrap": "^3.4.1",
-    "jquery": "^3.5.1"
+    "jquery": "^3.5.1",
+    "rxjs": "6.6.0"
   }
 }
